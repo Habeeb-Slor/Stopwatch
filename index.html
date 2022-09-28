@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+      body{
+        background-image: url(/Img/pexels-giallo-859895.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .contain{
+        margin-top: 160px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <center>
+      <div class="container w-50 p-5 contain shadow-lg">
+        <input type="text" placeholder="00" id="myHour" class="form-control w-75 fs-2">
+        <input type="text" placeholder="00" id="myMin" class="form-control w-75 fs-2">
+        <input type="text" placeholder="00" id="mySec" class="form-control w-75 fs-2">
+        <!-- <input type="text" placeholder="00" id="myMiSec"> -->
+        <button onclick="myStopWatch()" class="btn btn-primary mt-3">Start</button>
+      </div>
+    </center>  
+    
+    <script src="index.js"></script>
+  </body>
+</html>
